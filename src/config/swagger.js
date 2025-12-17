@@ -14,8 +14,8 @@ const options = {
     },
     servers: [
       {
-        url: 'http://localhost:5001/api',
-        description: 'Development server',
+        url: '/.netlify/functions/api',
+        description: 'Production server',
       },
     ],
     components: {
