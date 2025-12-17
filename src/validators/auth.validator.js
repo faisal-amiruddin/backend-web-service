@@ -22,6 +22,5 @@ const validate = (schema) => {
 };
 
 module.exports = {
-  validateRegister: validate(registerSchema),
   validateLogin: validate(loginSchema),
 };
